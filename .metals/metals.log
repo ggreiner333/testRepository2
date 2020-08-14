@@ -1,0 +1,2012 @@
+2020.07.12 14:09:46 INFO  started: Metals version 0.9.1 in workspace 'C:\Users\glgre\Documents\testCode\hello-world'
+2020.07.12 14:09:47 INFO  time: initialize in 0.82s
+2020.07.12 14:09:53 INFO  running 'C:\Program Files\Java\jdk-11.0.7\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\glgre\AppData\Local\Temp\metals3352531968905054005\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.07.12 14:09:58 INFO  [info] Loading settings for project hello-world-build from metals.sbt ...
+2020.07.12 14:09:58 INFO  [info] Loading project definition from C:\Users\glgre\Documents\testCode\hello-world\project
+2020.07.12 14:10:04 INFO  [info] Loading settings for project hello-world from build.sbt ...
+2020.07.12 14:10:04 INFO  [info] Set current project to hello-world (in build file:/C:/Users/glgre/Documents/testCode/hello-world/)
+2020.07.12 14:10:06 INFO  [success] Generated .bloop\hello-world.json
+2020.07.12 14:10:06 INFO  [success] Generated .bloop\hello-world-test.json
+2020.07.12 14:10:06 INFO  [success] Total time: 1 s, completed Jul 12, 2020, 2:10:06 PM
+2020.07.12 14:10:06 INFO  build tool exit: 0
+2020.07.12 14:10:06 INFO  time: ran 'sbt bloopInstall' in 12s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 35106'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\glgre\Documents\testCode\hello-world\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\glgre\Documents\testCode\hello-world\.bloop\hello-world-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\glgre\Documents\testCode\hello-world\.bloop\hello-world.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.1\scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.1\scala-reflect-2.13.1.jar
+[0m[32m[D][0m Missing analysis file for project 'hello-world-test'
+[0m[32m[D][0m Missing analysis file for project 'hello-world'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:35106...
+The server is listening for incoming connections at tcp://127.0.0.1:35106...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.12 14:10:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\glgre\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.07.12 14:10:21 INFO  no build target: using presentation compiler with only scala-library
+2020.07.12 14:10:22 INFO  time: connected to build server in 16s
+2020.07.12 14:10:22 INFO  Connected to Build server v1.4.3
+2020.07.12 14:10:22 INFO  time: imported build in 0.18s
+2020.07.12 14:10:24 INFO  compiling hello-world (1 scala source)
+2020.07.12 14:10:25 INFO  time: indexed workspace in 2.33s
+2020.07.12 14:10:24 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.9.1' (since 5.287s)
+2020.07.12 14:10:24 INFO  compiling hello-world (1 scala source)
+Jul 12, 2020 2:10:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Jul 12, 2020 2:10:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Jul 12, 2020 2:10:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Jul 12, 2020 2:10:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Jul 12, 2020 2:10:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jul 12, 2020 2:10:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2020.07.12 14:10:33 INFO  time: compiled hello-world in 8.22s
+2020.07.12 14:11:35 INFO  compiling hello-world (1 scala source)
+2020.07.12 14:11:35 INFO  time: compiled hello-world in 0.47s
+2020.07.12 14:17:09 INFO  compiling hello-world (1 scala source)
+2020.07.12 14:17:09 INFO  time: compiled hello-world in 0.72s
+2020.07.12 14:25:21 INFO  compiling hello-world (1 scala source)
+2020.07.12 14:25:21 INFO  time: compiled hello-world in 0.59s
+2020.07.12 14:28:12 INFO  compiling hello-world (1 scala source)
+2020.07.12 14:28:12 INFO  time: compiled hello-world in 0.48s
+2020.07.12 14:30:26 INFO  compiling hello-world (1 scala source)
+2020.07.12 14:30:26 INFO  time: compiled hello-world in 89ms
+2020.07.12 14:30:28 INFO  compiling hello-world (1 scala source)
+2020.07.12 14:30:28 INFO  time: compiled hello-world in 76ms
+2020.07.12 14:30:39 INFO  compiling hello-world (1 scala source)
+2020.07.12 14:30:39 INFO  time: compiled hello-world in 0.63s
+2020.07.12 14:30:44 INFO  compiling hello-world (1 scala source)
+2020.07.12 14:30:44 INFO  time: compiled hello-world in 69ms
+2020.07.12 14:30:46 INFO  compiling hello-world (1 scala source)
+2020.07.12 14:30:46 INFO  time: compiled hello-world in 59ms
+2020.07.12 14:33:40 INFO  compiling hello-world (1 scala source)
+2020.07.12 14:33:40 WARN  there were 8 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.07.12 14:33:40 INFO  time: compiled hello-world in 0.52s
+2020.07.12 14:34:20 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2020.08.03 13:28:09 INFO  started: Metals version 0.9.1 in workspace 'C:\Users\glgre\Documents\testCode\hello-world'
+2020.08.03 13:28:10 INFO  time: initialize in 0.89s
+2020.08.03 13:28:11 INFO  no build target: using presentation compiler with only scala-library
+2020.08.03 13:28:11 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 21107'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.08.03 13:28:13 WARN  no build target for: C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\glgre\Documents\testCode\hello-world\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\glgre\Documents\testCode\hello-world\.bloop\hello-world.json'
+[0m[32m[D][0m Loading project from 'c:\Users\glgre\Documents\testCode\hello-world\.bloop\hello-world-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.1\scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.1\scala-reflect-2.13.1.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'hello-world', 'hello-world-test'
+[0m[32m[D][0m Missing analysis file for project 'hello-world-test'
+[0m[32m[D][0m Loading previous analysis for 'hello-world' from 'C:\Users\glgre\Documents\testCode\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:21107...
+The server is listening for incoming connections at tcp://127.0.0.1:21107...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.03 13:28:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\glgre\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.08.03 13:28:17 INFO  time: connected to build server in 5.84s
+2020.08.03 13:28:17 INFO  Connected to Build server v1.4.3
+2020.08.03 13:28:17 INFO  time: imported build in 0.14s
+2020.08.03 13:28:19 INFO  time: indexed workspace in 1.81s
+2020.08.03 13:28:24 INFO  compiling hello-world (1 scala source)
+2020.08.03 13:28:26 WARN  there were 8 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.03 13:28:26 INFO  time: compiled hello-world in 2.72s
+2020.08.03 16:09:19 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2020.08.03 16:17:36 INFO  started: Metals version 0.9.2 in workspace 'C:\Users\glgre\Documents\testCode\hello-world' for client vscode.
+2020.08.03 16:17:37 INFO  time: initialize in 0.85s
+2020.08.03 16:17:37 INFO  no build target: using presentation compiler with only scala-library
+2020.08.03 16:17:37 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 38794'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:38794...
+The server is listening for incoming connections at tcp://127.0.0.1:38794...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.03 16:17:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\glgre\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.08.03 16:17:40 INFO  time: connected to build server in 2.8s
+2020.08.03 16:17:40 INFO  Connected to Build server v1.4.3
+2020.08.03 16:17:41 INFO  time: indexed workspace in 1.41s
+2020.08.03 16:17:42 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.9.2' (since 3.698s)
+2020.08.03 16:17:42 INFO  compiling hello-world (1 scala source)
+2020.08.03 16:17:42 INFO  compiling hello-world (1 scala source)
+2020.08.03 16:17:42 WARN  there were 8 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.03 16:17:42 WARN  there were 8 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.03 16:17:43 INFO  time: compiled hello-world in 1.7s
+2020.08.03 16:18:45 INFO  compiling hello-world (1 scala source)
+2020.08.03 16:18:45 INFO  time: compiled hello-world in 0.45s
+2020.08.03 16:18:47 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2020.08.03 16:18:57 INFO  started: Metals version 0.9.2 in workspace 'C:\Users\glgre\Documents\testCode\hello-world' for client vscode.
+2020.08.03 16:18:57 INFO  time: initialize in 0.82s
+2020.08.03 16:18:58 INFO  no build target: using presentation compiler with only scala-library
+2020.08.03 16:18:58 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 11392'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:11392...
+The server is listening for incoming connections at tcp://127.0.0.1:11392...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.03 16:18:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\glgre\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.08.03 16:18:59 INFO  time: connected to build server in 0.66s
+2020.08.03 16:18:59 INFO  Connected to Build server v1.4.3
+2020.08.03 16:18:59 INFO  time: imported build in 0.1s
+2020.08.03 16:19:00 INFO  time: indexed workspace in 1.08s
+2020.08.03 16:49:45 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2020.08.05 13:02:16 INFO  started: Metals version 0.9.2 in workspace 'C:\Users\glgre\Documents\testCode\hello-world' for client vscode.
+2020.08.05 13:02:17 INFO  time: initialize in 0.92s
+2020.08.05 13:02:17 INFO  no build target: using presentation compiler with only scala-library
+2020.08.05 13:02:17 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 41449'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.08.05 13:02:19 WARN  no build target for: C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\glgre\Documents\testCode\hello-world\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\glgre\Documents\testCode\hello-world\.bloop\hello-world.json'
+[0m[32m[D][0m Loading project from 'c:\Users\glgre\Documents\testCode\hello-world\.bloop\hello-world-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.1\scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.1\scala-reflect-2.13.1.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'hello-world-test', 'hello-world'
+[0m[32m[D][0m Missing analysis file for project 'hello-world-test'
+[0m[32m[D][0m Loading previous analysis for 'hello-world' from 'C:\Users\glgre\Documents\testCode\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:41449...
+The server is listening for incoming connections at tcp://127.0.0.1:41449...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.05 13:02:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\glgre\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.08.05 13:02:23 INFO  time: connected to build server in 5.6s
+2020.08.05 13:02:23 INFO  Connected to Build server v1.4.3
+2020.08.05 13:02:23 INFO  time: imported build in 0.19s
+2020.08.05 13:02:24 INFO  time: indexed workspace in 1.61s
+2020.08.05 13:02:25 INFO  compiling hello-world (1 scala source)
+2020.08.05 13:02:28 INFO  time: compiled hello-world in 2.38s
+2020.08.05 13:31:22 INFO  compiling hello-world (1 scala source)
+2020.08.05 13:31:22 INFO  time: compiled hello-world in 0.14s
+2020.08.05 13:31:25 INFO  compiling hello-world (1 scala source)
+2020.08.05 13:31:25 INFO  time: compiled hello-world in 79ms
+2020.08.05 14:06:27 INFO  compiling hello-world (1 scala source)
+2020.08.05 14:06:27 INFO  time: compiled hello-world in 0.13s
+2020.08.05 14:06:28 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2020.08.10 12:33:18 INFO  started: Metals version 0.9.2 in workspace 'C:\Users\glgre\Documents\testCode\hello-world' for client vscode.
+2020.08.10 12:33:18 INFO  time: initialize in 0.93s
+2020.08.10 12:33:19 INFO  no build target: using presentation compiler with only scala-library
+2020.08.10 12:33:19 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 36372'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.08.10 12:33:21 WARN  no build target for: C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\glgre\Documents\testCode\hello-world\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\glgre\Documents\testCode\hello-world\.bloop\hello-world.json'
+[0m[32m[D][0m Loading project from 'c:\Users\glgre\Documents\testCode\hello-world\.bloop\hello-world-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.1\scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.1\scala-reflect-2.13.1.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'hello-world', 'hello-world-test'
+[0m[32m[D][0m Missing analysis file for project 'hello-world-test'
+[0m[32m[D][0m Loading previous analysis for 'hello-world' from 'C:\Users\glgre\Documents\testCode\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:36372...
+The server is listening for incoming connections at tcp://127.0.0.1:36372...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.10 12:33:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\glgre\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.08.10 12:33:24 INFO  time: connected to build server in 5.63s
+2020.08.10 12:33:24 INFO  Connected to Build server v1.4.3
+2020.08.10 12:33:24 INFO  time: imported build in 0.13s
+2020.08.10 12:33:26 INFO  time: indexed workspace in 1.65s
+2020.08.10 12:33:27 INFO  compiling hello-world (1 scala source)
+2020.08.10 12:33:28 INFO  time: compiled hello-world in 1.46s
+2020.08.10 12:33:36 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:30:6: stale bloop error: recursive value userInput needs type
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^
+2020.08.10 12:33:36 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:30:6: stale bloop error: value reverse is not a member of Unit
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^^^^^^^^^
+2020.08.10 12:33:36 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:30:6: stale bloop error: recursive value userInput needs type
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^
+2020.08.10 12:33:36 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:30:6: stale bloop error: value reverse is not a member of Unit
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^^^^^^^^^
+2020.08.10 12:33:48 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:30:6: stale bloop error: recursive value userInput needs type
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^
+2020.08.10 12:33:48 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:30:6: stale bloop error: value reverse is not a member of Unit
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^^^^^^^^^
+2020.08.10 12:33:48 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:30:6: stale bloop error: recursive value userInput needs type
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^
+2020.08.10 12:33:48 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:30:6: stale bloop error: value reverse is not a member of Unit
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^^^^^^^^^
+2020.08.10 12:33:48 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:30:6: stale bloop error: recursive value userInput needs type
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^
+2020.08.10 12:33:48 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:30:6: stale bloop error: value reverse is not a member of Unit
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^^^^^^^^^
+2020.08.10 12:33:48 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:30:6: stale bloop error: recursive value userInput needs type
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^
+2020.08.10 12:33:48 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:30:6: stale bloop error: value reverse is not a member of Unit
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^^^^^^^^^
+2020.08.10 12:33:53 INFO  compiling hello-world (1 scala source)
+2020.08.10 12:33:55 INFO  time: compiled hello-world in 1.06s
+2020.08.10 12:35:12 INFO  compiling hello-world (1 scala source)
+2020.08.10 12:35:12 INFO  time: compiled hello-world in 0.55s
+Aug 10, 2020 12:36:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.08.10 12:46:20 INFO  compiling hello-world (1 scala source)
+2020.08.10 12:46:20 INFO  time: compiled hello-world in 0.15s
+2020.08.10 12:46:22 INFO  compiling hello-world (1 scala source)
+2020.08.10 12:46:22 INFO  time: compiled hello-world in 0.1s
+2020.08.10 13:04:50 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:5:6: stale bloop error: not enough arguments for method apply: (i: Int)Char in class StringOps.
+Unspecified value parameter i.
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^^^^^^^^^^^
+2020.08.10 13:04:50 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:5:6: stale bloop error: not enough arguments for method apply: (i: Int)Char in class StringOps.
+Unspecified value parameter i.
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^^^^^^^^^^^
+2020.08.10 13:04:53 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:5:6: stale bloop error: not enough arguments for method apply: (i: Int)Char in class StringOps.
+Unspecified value parameter i.
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^^^^^^^^^^^
+2020.08.10 13:04:53 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:5:6: stale bloop error: not enough arguments for method apply: (i: Int)Char in class StringOps.
+Unspecified value parameter i.
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^^^^^^^^^^^
+2020.08.10 13:04:53 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:5:6: stale bloop error: not enough arguments for method apply: (i: Int)Char in class StringOps.
+Unspecified value parameter i.
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^^^^^^^^^^^
+2020.08.10 13:04:54 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:5:6: stale bloop error: not enough arguments for method apply: (i: Int)Char in class StringOps.
+Unspecified value parameter i.
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^^^^^^^^^^^
+2020.08.10 13:04:55 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:5:6: stale bloop error: not enough arguments for method apply: (i: Int)Char in class StringOps.
+Unspecified value parameter i.
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^^^^^^^^^^^
+2020.08.10 13:04:55 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:5:6: stale bloop error: not enough arguments for method apply: (i: Int)Char in class StringOps.
+Unspecified value parameter i.
+  if(userInput.reverse().equals(userInput)){
+     ^^^^^^^^^^^^^^^^^^^
+2020.08.10 13:07:35 INFO  compiling hello-world (1 scala source)
+2020.08.10 13:07:35 INFO  time: compiled hello-world in 0.11s
+2020.08.10 13:07:42 INFO  compiling hello-world (1 scala source)
+2020.08.10 13:07:42 WARN  there were 8 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.10 13:07:42 INFO  time: compiled hello-world in 0.87s
+Aug 10, 2020 1:07:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1038]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1038]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1038]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:49)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:43)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:80)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:37)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionMetaPosition.toLSP(CommonMtagsEnrichments.scala:74)
+	at scala.meta.internal.metals.TokenEditDistance.toRevised(TokenEditDistance.scala:135)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$11(RunTestCodeLens.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$10(RunTestCodeLens.scala:73)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$flatMap$2(TraversableLike.scala:905)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.collection.TraversableLike$WithFilter.flatMap(TraversableLike.scala:904)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:56)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$1(RunTestCodeLens.scala:44)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:42)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:21)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$1(CodeLensProvider.scala:21)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:19)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1276)
+	at scala.meta.internal.metals.MetalsLanguageServer.timedThunk(MetalsLanguageServer.scala:1787)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1274)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Aug 10, 2020 1:07:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1037]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1037]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1037]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:49)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:43)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:80)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:37)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionMetaPosition.toLSP(CommonMtagsEnrichments.scala:74)
+	at scala.meta.internal.metals.TokenEditDistance.toRevised(TokenEditDistance.scala:135)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$11(RunTestCodeLens.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$10(RunTestCodeLens.scala:73)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$flatMap$2(TraversableLike.scala:905)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.collection.TraversableLike$WithFilter.flatMap(TraversableLike.scala:904)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:56)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$1(RunTestCodeLens.scala:44)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:42)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:21)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$1(CodeLensProvider.scala:21)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:19)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1276)
+	at scala.meta.internal.metals.MetalsLanguageServer.timedThunk(MetalsLanguageServer.scala:1787)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1274)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Aug 10, 2020 1:07:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1035]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1035]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1035]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:49)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:43)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:80)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:37)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionMetaPosition.toLSP(CommonMtagsEnrichments.scala:74)
+	at scala.meta.internal.metals.TokenEditDistance.toRevised(TokenEditDistance.scala:135)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$11(RunTestCodeLens.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$10(RunTestCodeLens.scala:73)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$flatMap$2(TraversableLike.scala:905)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.collection.TraversableLike$WithFilter.flatMap(TraversableLike.scala:904)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:56)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$1(RunTestCodeLens.scala:44)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:42)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:21)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$1(CodeLensProvider.scala:21)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:19)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1276)
+	at scala.meta.internal.metals.MetalsLanguageServer.timedThunk(MetalsLanguageServer.scala:1787)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1274)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Aug 10, 2020 1:08:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1036]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1036]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1036]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:49)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:43)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:80)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:37)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionMetaPosition.toLSP(CommonMtagsEnrichments.scala:74)
+	at scala.meta.internal.metals.TokenEditDistance.toRevised(TokenEditDistance.scala:135)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$11(RunTestCodeLens.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$10(RunTestCodeLens.scala:73)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$flatMap$2(TraversableLike.scala:905)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.collection.TraversableLike$WithFilter.flatMap(TraversableLike.scala:904)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:56)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$1(RunTestCodeLens.scala:44)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:42)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:21)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$1(CodeLensProvider.scala:21)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:19)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1276)
+	at scala.meta.internal.metals.MetalsLanguageServer.timedThunk(MetalsLanguageServer.scala:1787)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1274)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Aug 10, 2020 1:08:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1037]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1037]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1037]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:49)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:43)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:80)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:37)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionMetaPosition.toLSP(CommonMtagsEnrichments.scala:74)
+	at scala.meta.internal.metals.TokenEditDistance.toRevised(TokenEditDistance.scala:135)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$11(RunTestCodeLens.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$10(RunTestCodeLens.scala:73)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$flatMap$2(TraversableLike.scala:905)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.collection.TraversableLike$WithFilter.flatMap(TraversableLike.scala:904)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:56)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$1(RunTestCodeLens.scala:44)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:42)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:21)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$1(CodeLensProvider.scala:21)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:19)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1276)
+	at scala.meta.internal.metals.MetalsLanguageServer.timedThunk(MetalsLanguageServer.scala:1787)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1274)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Aug 10, 2020 1:08:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..722]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..722]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..722]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:49)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:43)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:80)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:37)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionMetaPosition.toLSP(CommonMtagsEnrichments.scala:74)
+	at scala.meta.internal.metals.TokenEditDistance.toRevised(TokenEditDistance.scala:135)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$11(RunTestCodeLens.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$10(RunTestCodeLens.scala:73)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$flatMap$2(TraversableLike.scala:905)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.collection.TraversableLike$WithFilter.flatMap(TraversableLike.scala:904)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:56)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$1(RunTestCodeLens.scala:44)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:42)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:21)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$1(CodeLensProvider.scala:21)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:19)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1276)
+	at scala.meta.internal.metals.MetalsLanguageServer.timedThunk(MetalsLanguageServer.scala:1787)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1274)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Aug 10, 2020 1:08:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..720]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..720]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..720]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:49)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:43)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:80)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:37)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionMetaPosition.toLSP(CommonMtagsEnrichments.scala:74)
+	at scala.meta.internal.metals.TokenEditDistance.toRevised(TokenEditDistance.scala:135)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$11(RunTestCodeLens.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$10(RunTestCodeLens.scala:73)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$flatMap$2(TraversableLike.scala:905)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.collection.TraversableLike$WithFilter.flatMap(TraversableLike.scala:904)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:56)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$1(RunTestCodeLens.scala:44)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:42)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:21)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$1(CodeLensProvider.scala:21)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:19)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1276)
+	at scala.meta.internal.metals.MetalsLanguageServer.timedThunk(MetalsLanguageServer.scala:1787)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1274)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Aug 10, 2020 1:08:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..718]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..718]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..718]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:49)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:43)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:80)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:37)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionMetaPosition.toLSP(CommonMtagsEnrichments.scala:74)
+	at scala.meta.internal.metals.TokenEditDistance.toRevised(TokenEditDistance.scala:135)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$11(RunTestCodeLens.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$10(RunTestCodeLens.scala:73)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$flatMap$2(TraversableLike.scala:905)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.collection.TraversableLike$WithFilter.flatMap(TraversableLike.scala:904)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:56)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.$anonfun$codeLenses$1(RunTestCodeLens.scala:44)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:42)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:21)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$1(CodeLensProvider.scala:21)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:19)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1276)
+	at scala.meta.internal.metals.MetalsLanguageServer.timedThunk(MetalsLanguageServer.scala:1787)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1274)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+2020.08.10 13:08:16 INFO  compiling hello-world (1 scala source)
+2020.08.10 13:08:16 INFO  time: compiled hello-world in 73ms
+2020.08.10 13:08:18 INFO  compiling hello-world (1 scala source)
+2020.08.10 13:08:18 INFO  time: compiled hello-world in 62ms
+2020.08.10 13:12:09 INFO  compiling hello-world (1 scala source)
+2020.08.10 13:12:09 INFO  time: compiled hello-world in 67ms
+2020.08.10 13:12:11 INFO  compiling hello-world (1 scala source)
+2020.08.10 13:12:11 INFO  time: compiled hello-world in 65ms
+2020.08.10 13:15:04 INFO  compiling hello-world (1 scala source)
+2020.08.10 13:15:04 INFO  time: compiled hello-world in 0.54s
+2020.08.10 13:19:07 INFO  compiling hello-world (1 scala source)
+2020.08.10 13:19:07 INFO  time: compiled hello-world in 0.54s
+2020.08.10 13:20:52 INFO  compiling hello-world (1 scala source)
+2020.08.10 13:20:52 INFO  time: compiled hello-world in 0.48s
+2020.08.10 13:21:04 INFO  compiling hello-world (1 scala source)
+2020.08.10 13:21:04 INFO  time: compiled hello-world in 0.48s
+2020.08.10 13:22:20 INFO  compiling hello-world (1 scala source)
+2020.08.10 13:22:20 INFO  time: compiled hello-world in 0.53s
+2020.08.10 13:24:53 INFO  compiling hello-world (1 scala source)
+2020.08.10 13:24:53 INFO  time: compiled hello-world in 0.39s
+Aug 10, 2020 1:34:59 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 10, 2020 1:34:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+2020.08.10 13:43:14 INFO  compiling hello-world (1 scala source)
+2020.08.10 13:43:14 INFO  time: compiled hello-world in 0.48s
+2020.08.10 14:21:31 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:21:31 INFO  time: compiled hello-world in 0.2s
+2020.08.10 14:21:34 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:21:34 INFO  time: compiled hello-world in 0.11s
+2020.08.10 14:21:52 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:21:52 INFO  time: compiled hello-world in 0.16s
+2020.08.10 14:21:54 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:21:54 INFO  time: compiled hello-world in 0.11s
+2020.08.10 14:22:07 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:22:07 INFO  time: compiled hello-world in 0.12s
+2020.08.10 14:22:10 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:22:10 INFO  time: compiled hello-world in 88ms
+2020.08.10 14:22:22 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:22:22 INFO  time: compiled hello-world in 0.11s
+2020.08.10 14:22:24 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:22:24 INFO  time: compiled hello-world in 85ms
+2020.08.10 14:25:47 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:25:47 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.10 14:25:47 INFO  time: compiled hello-world in 0.61s
+Aug 10, 2020 2:37:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: offset 482, count -1, length 1307
+java.lang.StringIndexOutOfBoundsException: offset 482, count -1, length 1307
+	at java.base/java.lang.String.checkBoundsOffCount(String.java:3304)
+	at java.base/java.lang.String.rangeCheck(String.java:280)
+	at java.base/java.lang.String.<init>(String.java:276)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1235)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1258)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:376)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:374)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:199)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:310)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:304)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:273)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+2020.08.10 14:43:01 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:43:01 INFO  time: compiled hello-world in 0.11s
+2020.08.10 14:43:03 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:43:03 INFO  time: compiled hello-world in 95ms
+2020.08.10 14:43:50 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:43:50 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.10 14:43:50 INFO  time: compiled hello-world in 0.52s
+2020.08.10 14:43:58 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:43:58 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.10 14:43:58 INFO  time: compiled hello-world in 0.51s
+2020.08.10 14:46:17 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:46:17 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.10 14:46:17 INFO  time: compiled hello-world in 0.5s
+2020.08.10 14:48:14 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:48:14 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.10 14:48:14 INFO  time: compiled hello-world in 0.58s
+2020.08.10 14:52:51 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:52:51 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 14:52:51 INFO  time: compiled hello-world in 0.52s
+Aug 10, 2020 2:56:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12195
+2020.08.10 14:56:39 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:56:39 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 14:56:39 INFO  time: compiled hello-world in 0.65s
+2020.08.10 14:59:53 INFO  compiling hello-world (1 scala source)
+2020.08.10 14:59:53 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 14:59:53 INFO  time: compiled hello-world in 0.56s
+2020.08.10 15:00:22 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:00:22 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 15:00:22 INFO  time: compiled hello-world in 0.5s
+2020.08.10 15:08:06 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:08:06 INFO  time: compiled hello-world in 0.1s
+2020.08.10 15:08:08 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:08:08 INFO  time: compiled hello-world in 81ms
+2020.08.10 15:09:22 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:09:22 INFO  time: compiled hello-world in 84ms
+2020.08.10 15:09:24 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:09:24 INFO  time: compiled hello-world in 86ms
+2020.08.10 15:11:02 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:11:02 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 15:11:02 INFO  time: compiled hello-world in 0.63s
+2020.08.10 15:15:26 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:15:26 INFO  time: compiled hello-world in 84ms
+2020.08.10 15:15:28 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:15:28 INFO  time: compiled hello-world in 70ms
+2020.08.10 15:19:41 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:19:41 INFO  time: compiled hello-world in 92ms
+2020.08.10 15:19:43 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:19:43 INFO  time: compiled hello-world in 77ms
+2020.08.10 15:20:16 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:20:16 INFO  time: compiled hello-world in 0.48s
+2020.08.10 15:26:53 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:26:53 INFO  time: compiled hello-world in 88ms
+2020.08.10 15:26:56 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:26:56 INFO  time: compiled hello-world in 76ms
+2020.08.10 15:27:06 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:27:06 INFO  time: compiled hello-world in 0.51s
+2020.08.10 15:29:21 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:29:21 INFO  time: compiled hello-world in 0.51s
+2020.08.10 15:29:41 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:29:41 INFO  time: compiled hello-world in 45ms
+2020.08.10 15:29:43 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:29:43 INFO  time: compiled hello-world in 38ms
+2020.08.10 15:29:51 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:29:51 INFO  time: compiled hello-world in 0.49s
+Aug 10, 2020 3:33:36 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Aug 10, 2020 3:37:54 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Aug 10, 2020 3:41:03 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+2020.08.10 15:48:19 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:48:19 INFO  time: compiled hello-world in 0.11s
+2020.08.10 15:48:21 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:48:21 INFO  time: compiled hello-world in 0.11s
+2020.08.10 15:48:34 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:48:34 INFO  time: compiled hello-world in 0.1s
+2020.08.10 15:48:36 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:48:36 INFO  time: compiled hello-world in 96ms
+2020.08.10 15:49:17 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:49:17 INFO  time: compiled hello-world in 0.1s
+2020.08.10 15:49:19 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:49:19 INFO  time: compiled hello-world in 89ms
+2020.08.10 15:49:23 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:49:23 INFO  time: compiled hello-world in 83ms
+2020.08.10 15:49:26 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:49:26 INFO  time: compiled hello-world in 85ms
+2020.08.10 15:49:33 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:49:33 INFO  time: compiled hello-world in 88ms
+2020.08.10 15:49:35 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:49:35 INFO  time: compiled hello-world in 96ms
+Aug 10, 2020 3:52:47 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+2020.08.10 15:53:04 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:53:04 INFO  time: compiled hello-world in 44ms
+2020.08.10 15:53:06 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:53:06 INFO  time: compiled hello-world in 40ms
+2020.08.10 15:53:08 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:53:08 INFO  time: compiled hello-world in 0.11s
+2020.08.10 15:56:08 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:56:08 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 15:56:08 INFO  time: compiled hello-world in 0.53s
+2020.08.10 15:56:44 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:56:44 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 15:56:44 INFO  time: compiled hello-world in 0.63s
+2020.08.10 15:57:29 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:57:29 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 15:57:29 INFO  time: compiled hello-world in 0.7s
+2020.08.10 15:58:13 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:58:13 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 15:58:13 INFO  time: compiled hello-world in 0.6s
+2020.08.10 15:58:55 INFO  compiling hello-world (1 scala source)
+2020.08.10 15:58:55 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 15:58:55 INFO  time: compiled hello-world in 0.53s
+2020.08.10 16:00:02 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:00:02 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:00:02 INFO  time: compiled hello-world in 0.61s
+2020.08.10 16:01:38 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:01:38 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:01:38 INFO  time: compiled hello-world in 0.94s
+2020.08.10 16:03:38 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:03:40 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:03:40 INFO  time: compiled hello-world in 1.59s
+2020.08.10 16:30:59 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:31:00 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:31:00 INFO  time: compiled hello-world in 1.58s
+2020.08.10 16:32:26 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:32:26 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:32:26 INFO  time: compiled hello-world in 0.54s
+2020.08.10 16:33:36 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:33:36 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:33:36 INFO  time: compiled hello-world in 0.65s
+2020.08.10 16:34:43 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:34:43 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:34:43 INFO  time: compiled hello-world in 0.75s
+2020.08.10 16:38:07 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:38:07 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:38:07 INFO  time: compiled hello-world in 0.85s
+2020.08.10 16:40:14 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:40:14 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:40:14 INFO  time: compiled hello-world in 0.87s
+2020.08.10 16:41:42 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:41:42 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:41:42 INFO  time: compiled hello-world in 0.96s
+2020.08.10 16:41:58 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:41:58 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:41:58 INFO  time: compiled hello-world in 0.79s
+2020.08.10 16:45:01 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:45:01 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:45:02 INFO  time: compiled hello-world in 1.01s
+2020.08.10 16:47:09 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:47:09 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:47:09 INFO  time: compiled hello-world in 0.75s
+2020.08.10 16:47:26 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:47:26 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:47:26 INFO  time: compiled hello-world in 0.73s
+2020.08.10 16:49:14 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:49:15 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:49:15 INFO  time: compiled hello-world in 1.04s
+2020.08.10 16:49:55 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:49:56 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:49:56 INFO  time: compiled hello-world in 1.48s
+2020.08.10 16:50:29 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:50:30 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:50:30 INFO  time: compiled hello-world in 1.71s
+2020.08.10 16:51:20 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:51:22 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:51:22 INFO  time: compiled hello-world in 2.17s
+2020.08.10 16:52:58 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:53:00 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:53:00 INFO  time: compiled hello-world in 2.32s
+2020.08.10 16:55:47 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:55:49 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:55:49 INFO  time: compiled hello-world in 1.8s
+2020.08.10 16:57:44 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:57:46 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:57:46 INFO  time: compiled hello-world in 1.95s
+2020.08.10 16:59:13 INFO  compiling hello-world (1 scala source)
+2020.08.10 16:59:15 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.10 16:59:15 INFO  time: compiled hello-world in 2.24s
+2020.08.10 17:06:09 INFO  compiling hello-world (1 scala source)
+2020.08.10 17:06:11 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.10 17:06:11 INFO  time: compiled hello-world in 1.69s
+2020.08.10 17:06:39 INFO  compiling hello-world (1 scala source)
+2020.08.10 17:06:41 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.10 17:06:41 INFO  time: compiled hello-world in 2.21s
+2020.08.10 17:40:43 INFO  compiling hello-world (1 scala source)
+2020.08.10 17:40:45 WARN  there were three deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.10 17:40:45 INFO  time: compiled hello-world in 1.91s
+2020.08.10 17:41:22 INFO  compiling hello-world (1 scala source)
+2020.08.10 17:41:24 WARN  there were three deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.10 17:41:24 INFO  time: compiled hello-world in 2.17s
+2020.08.10 17:42:55 INFO  compiling hello-world (1 scala source)
+2020.08.10 17:42:57 WARN  there were three deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.10 17:42:57 INFO  time: compiled hello-world in 2.1s
+2020.08.10 17:45:43 INFO  compiling hello-world (1 scala source)
+2020.08.10 17:45:44 WARN  there were four deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.10 17:45:44 INFO  time: compiled hello-world in 1.59s
+2020.08.10 17:45:58 INFO  compiling hello-world (1 scala source)
+2020.08.10 17:46:00 WARN  there were four deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.10 17:46:00 INFO  time: compiled hello-world in 2.07s
+2020.08.10 18:05:12 INFO  compiling hello-world (1 scala source)
+2020.08.10 18:05:12 WARN  there were four deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.10 18:05:12 INFO  time: compiled hello-world in 0.74s
+2020.08.10 18:05:16 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2020.08.10 20:45:41 INFO  started: Metals version 0.9.2 in workspace 'C:\Users\glgre\Documents\testCode\hello-world' for client vscode.
+2020.08.10 20:45:42 INFO  time: initialize in 0.82s
+2020.08.10 20:45:42 INFO  no build target: using presentation compiler with only scala-library
+2020.08.10 20:45:42 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 35286'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:35286...
+The server is listening for incoming connections at tcp://127.0.0.1:35286...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.10 20:45:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\glgre\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.08.10 20:45:43 INFO  time: connected to build server in 0.62s
+2020.08.10 20:45:43 INFO  Connected to Build server v1.4.3
+2020.08.10 20:45:45 INFO  time: indexed workspace in 2.13s
+2020.08.10 20:47:25 INFO  compiling hello-world (1 scala source)
+2020.08.10 20:47:25 WARN  there were four deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.10 20:47:25 INFO  time: compiled hello-world in 0.59s
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 65, 65, 80)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 65, 65, 73)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 65, 65, 74)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 65, 65, 75)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 65, 65, 78)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 65, 65, 76)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[String]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 65, 65, 78)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[String]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 65, 65, 78)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[String]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 65, 65, 78)
+2020.08.10 21:10:21 INFO  compiling hello-world (1 scala source)
+2020.08.10 21:10:21 INFO  time: compiled hello-world in 0.5s
+2020.08.10 21:10:24 INFO  compiling hello-world (1 scala source)
+2020.08.10 21:10:24 INFO  time: compiled hello-world in 0.39s
+2020.08.10 21:12:58 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:4:3: stale bloop error: cannot override final member:
+final def main(args: Array[String]): Unit (defined in trait App)
+> def main(args: Array[String]): Unit = {
+>     println("How many packages would you like to ship?")
+> 
+>     val numPackages = try {
+>       readInt()
+>     } catch{
+>       case _: NumberFormatException => 0
+>     }
+>     var totalShippingCost = 0.0
+> 
+>     val myRange = 0 until numPackages
+>     
+>     for(n <- 1 to numPackages){
+>       println("What is the weight of package " + n + "?")
+>       totalShippingCost += calculateShippingCharge(readDouble())
+>     }
+>     println("Your total shipping charge is $" + totalShippingCost)
+>   }
+2020.08.10 21:12:58 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:4:3: stale bloop error: cannot override final member:
+final def main(args: Array[String]): Unit (defined in trait App)
+> def main(args: Array[String]): Unit = {
+>     println("How many packages would you like to ship?")
+> 
+>     val numPackages = try {
+>       readInt()
+>     } catch{
+>       case _: NumberFormatException => 0
+>     }
+>     var totalShippingCost = 0.0
+> 
+>     val myRange = 0 until numPackages
+>     
+>     for(n <- 1 to numPackages){
+>       println("What is the weight of package " + n + "?")
+>       totalShippingCost += calculateShippingCharge(readDouble())
+>     }
+>     println("Your total shipping charge is $" + totalShippingCost)
+>   }
+2020.08.10 21:13:00 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:4:3: stale bloop error: cannot override final member:
+final def main(args: Array[String]): Unit (defined in trait App)
+> def main(args: Array[String]): Unit = {
+>     println("How many packages would you like to ship?")
+> 
+>     val numPackages = try {
+>       readInt()
+>     } catch{
+>       case _: NumberFormatException => 0
+>     }
+>     var totalShippingCost = 0.0
+> 
+>     val myRange = 0 until numPackages
+>     
+>     for(n <- 1 to numPackages){
+>       println("What is the weight of package " + n + "?")
+>       totalShippingCost += calculateShippingCharge(readDouble())
+>     }
+>     println("Your total shipping charge is $" + totalShippingCost)
+>   }
+2020.08.10 21:13:00 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:4:3: stale bloop error: cannot override final member:
+final def main(args: Array[String]): Unit (defined in trait App)
+> def main(args: Array[String]): Unit = {
+>     println("How many packages would you like to ship?")
+> 
+>     val numPackages = try {
+>       readInt()
+>     } catch{
+>       case _: NumberFormatException => 0
+>     }
+>     var totalShippingCost = 0.0
+> 
+>     val myRange = 0 until numPackages
+>     
+>     for(n <- 1 to numPackages){
+>       println("What is the weight of package " + n + "?")
+>       totalShippingCost += calculateShippingCharge(readDouble())
+>     }
+>     println("Your total shipping charge is $" + totalShippingCost)
+>   }
+2020.08.10 21:13:00 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:4:3: stale bloop error: cannot override final member:
+final def main(args: Array[String]): Unit (defined in trait App)
+> def main(args: Array[String]): Unit = {
+>     println("How many packages would you like to ship?")
+> 
+>     val numPackages = try {
+>       readInt()
+>     } catch{
+>       case _: NumberFormatException => 0
+>     }
+>     var totalShippingCost = 0.0
+> 
+>     val myRange = 0 until numPackages
+>     
+>     for(n <- 1 to numPackages){
+>       println("What is the weight of package " + n + "?")
+>       totalShippingCost += calculateShippingCharge(readDouble())
+>     }
+>     println("Your total shipping charge is $" + totalShippingCost)
+>   }
+2020.08.10 21:13:01 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala:4:3: stale bloop error: cannot override final member:
+final def main(args: Array[String]): Unit (defined in trait App)
+> def main(args: Array[String]): Unit = {
+>     println("How many packages would you like to ship?")
+> 
+>     val numPackages = try {
+>       readInt()
+>     } catch{
+>       case _: NumberFormatException => 0
+>     }
+>     var totalShippingCost = 0.0
+> 
+>     val myRange = 0 until numPackages
+>     
+>     for(n <- 1 to numPackages){
+>       println("What is the weight of package " + n + "?")
+>       totalShippingCost += calculateShippingCharge(readDouble())
+>     }
+>     println("Your total shipping charge is $" + totalShippingCost)
+>   }
+2020.08.10 21:13:06 INFO  compiling hello-world (1 scala source)
+2020.08.10 21:13:06 INFO  time: compiled hello-world in 70ms
+2020.08.10 21:13:08 INFO  compiling hello-world (1 scala source)
+2020.08.10 21:13:08 INFO  time: compiled hello-world in 70ms
+2020.08.10 21:13:15 INFO  compiling hello-world (1 scala source)
+2020.08.10 21:13:15 INFO  time: compiled hello-world in 0.48s
+Aug 10, 2020 9:14:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: offset 297, count -2, length 3599
+java.lang.StringIndexOutOfBoundsException: offset 297, count -2, length 3599
+	at java.base/java.lang.String.checkBoundsOffCount(String.java:3304)
+	at java.base/java.lang.String.rangeCheck(String.java:280)
+	at java.base/java.lang.String.<init>(String.java:276)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1235)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1258)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:376)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:374)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:199)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:310)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:304)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:273)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+2020.08.10 21:14:53 INFO  compiling hello-world (1 scala source)
+2020.08.10 21:14:53 INFO  time: compiled hello-world in 66ms
+2020.08.10 21:14:55 INFO  compiling hello-world (1 scala source)
+2020.08.10 21:14:55 INFO  time: compiled hello-world in 57ms
+2020.08.10 21:15:22 INFO  compiling hello-world (1 scala source)
+2020.08.10 21:15:22 INFO  time: compiled hello-world in 0.5s
+2020.08.10 21:16:34 INFO  compiling hello-world (1 scala source)
+2020.08.10 21:16:34 INFO  time: compiled hello-world in 0.49s
+2020.08.10 21:18:59 INFO  compiling hello-world (1 scala source)
+2020.08.10 21:18:59 INFO  time: compiled hello-world in 0.5s
+2020.08.10 21:21:34 INFO  compiling hello-world (1 scala source)
+2020.08.10 21:21:34 INFO  time: compiled hello-world in 0.47s
+2020.08.10 21:22:50 INFO  compiling hello-world (1 scala source)
+2020.08.10 21:22:50 INFO  time: compiled hello-world in 78ms
+2020.08.10 21:22:52 INFO  compiling hello-world (1 scala source)
+2020.08.10 21:22:52 INFO  time: compiled hello-world in 66ms
+2020.08.10 21:23:33 INFO  compiling hello-world (1 scala source)
+2020.08.10 21:23:33 INFO  time: compiled hello-world in 72ms
+2020.08.10 21:23:35 INFO  compiling hello-world (1 scala source)
+2020.08.10 21:23:35 INFO  time: compiled hello-world in 69ms
+2020.08.10 21:23:47 INFO  compiling hello-world (1 scala source)
+2020.08.10 21:23:47 INFO  time: compiled hello-world in 0.49s
+2020.08.10 21:27:36 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2020.08.11 10:42:15 INFO  started: Metals version 0.9.2 in workspace 'C:\Users\glgre\Documents\testCode\hello-world' for client vscode.
+2020.08.11 10:42:17 INFO  time: initialize in 1.13s
+2020.08.11 10:42:17 INFO  no build target: using presentation compiler with only scala-library
+2020.08.11 10:42:17 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 21610'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:21610...
+The server is listening for incoming connections at tcp://127.0.0.1:21610...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.11 10:42:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\glgre\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.08.11 10:42:18 INFO  time: connected to build server in 0.83s
+2020.08.11 10:42:18 INFO  Connected to Build server v1.4.3
+2020.08.11 10:42:18 INFO  time: imported build in 0.11s
+2020.08.11 10:42:21 INFO  time: indexed workspace in 3.23s
+2020.08.11 10:43:05 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:43:05 INFO  time: compiled hello-world in 0.49s
+2020.08.11 10:46:46 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:46:46 INFO  time: compiled hello-world in 99ms
+2020.08.11 10:46:48 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:46:48 INFO  time: compiled hello-world in 67ms
+2020.08.11 10:47:15 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:47:15 INFO  time: compiled hello-world in 64ms
+2020.08.11 10:47:17 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:47:17 INFO  time: compiled hello-world in 80ms
+2020.08.11 10:49:32 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:49:32 INFO  time: compiled hello-world in 72ms
+2020.08.11 10:49:34 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:49:34 INFO  time: compiled hello-world in 63ms
+2020.08.11 10:49:39 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:49:39 INFO  time: compiled hello-world in 67ms
+2020.08.11 10:49:41 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:49:41 INFO  time: compiled hello-world in 64ms
+2020.08.11 10:49:48 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:49:48 INFO  time: compiled hello-world in 65ms
+2020.08.11 10:49:50 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:49:50 INFO  time: compiled hello-world in 62ms
+2020.08.11 10:50:02 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:50:02 INFO  time: compiled hello-world in 59ms
+2020.08.11 10:50:04 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:50:04 INFO  time: compiled hello-world in 57ms
+2020.08.11 10:50:12 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:50:12 INFO  time: compiled hello-world in 57ms
+2020.08.11 10:50:14 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:50:14 INFO  time: compiled hello-world in 51ms
+2020.08.11 10:51:06 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:51:06 INFO  time: compiled hello-world in 0.46s
+2020.08.11 10:53:31 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:53:31 INFO  time: compiled hello-world in 0.6s
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 202, 202, 217)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 202, 202, 210)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 202, 202, 211)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Int]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 202, 202, 212)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Int]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 202, 202, 212)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Int]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 202, 202, 212)
+2020.08.11 10:56:55 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:56:55 INFO  time: compiled hello-world in 52ms
+2020.08.11 10:56:57 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:56:57 INFO  time: compiled hello-world in 40ms
+2020.08.11 10:58:06 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:58:06 INFO  time: compiled hello-world in 89ms
+2020.08.11 10:58:08 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:58:08 INFO  time: compiled hello-world in 78ms
+2020.08.11 10:58:26 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:58:26 INFO  time: compiled hello-world in 70ms
+2020.08.11 10:58:28 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:58:28 INFO  time: compiled hello-world in 73ms
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Int]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 202, 202, 212)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Int]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 202, 202, 212)
+2020.08.11 10:58:53 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:58:53 INFO  time: compiled hello-world in 81ms
+2020.08.11 10:58:55 INFO  compiling hello-world (1 scala source)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 202, 202, 217)
+2020.08.11 10:58:55 INFO  time: compiled hello-world in 76ms
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 202, 202, 210)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 202, 202, 211)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Int]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 202, 202, 212)
+2020.08.11 10:58:59 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:58:59 INFO  time: compiled hello-world in 73ms
+2020.08.11 10:59:01 INFO  compiling hello-world (1 scala source)
+2020.08.11 10:59:01 INFO  time: compiled hello-world in 76ms
+2020.08.11 11:00:28 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:00:28 INFO  time: compiled hello-world in 0.56s
+2020.08.11 11:02:28 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:02:28 INFO  time: compiled hello-world in 0.51s
+2020.08.11 11:03:13 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:03:13 INFO  time: compiled hello-world in 0.5s
+Aug 11, 2020 11:04:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2677
+2020.08.11 11:05:10 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:05:10 INFO  time: compiled hello-world in 0.53s
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Int]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 880, 880, 890)
+2020.08.11 11:12:57 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:12:57 INFO  time: compiled hello-world in 0.11s
+2020.08.11 11:13:00 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:13:00 INFO  time: compiled hello-world in 85ms
+2020.08.11 11:13:07 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:13:07 INFO  time: compiled hello-world in 87ms
+2020.08.11 11:13:09 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:13:09 INFO  time: compiled hello-world in 85ms
+2020.08.11 11:14:46 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:14:46 INFO  time: compiled hello-world in 0.56s
+2020.08.11 11:16:55 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:16:55 INFO  time: compiled hello-world in 0.59s
+2020.08.11 11:18:54 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:18:54 INFO  time: compiled hello-world in 0.58s
+2020.08.11 11:19:22 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:19:22 INFO  time: compiled hello-world in 0.53s
+2020.08.11 11:20:40 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:20:40 INFO  time: compiled hello-world in 0.56s
+2020.08.11 11:21:39 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:21:39 INFO  time: compiled hello-world in 0.58s
+2020.08.11 11:21:54 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:21:54 INFO  time: compiled hello-world in 0.57s
+2020.08.11 11:22:48 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:22:48 INFO  time: compiled hello-world in 0.78s
+2020.08.11 11:25:13 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:25:13 INFO  time: compiled hello-world in 0.54s
+2020.08.11 11:45:23 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:45:23 INFO  time: compiled hello-world in 56ms
+2020.08.11 11:45:25 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:45:25 INFO  time: compiled hello-world in 58ms
+2020.08.11 11:45:50 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:45:50 INFO  time: compiled hello-world in 57ms
+2020.08.11 11:45:52 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:45:52 INFO  time: compiled hello-world in 50ms
+2020.08.11 11:46:01 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:46:01 INFO  time: compiled hello-world in 0.42s
+2020.08.11 11:56:13 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:56:13 INFO  time: compiled hello-world in 0.68s
+2020.08.11 11:57:00 INFO  compiling hello-world (1 scala source)
+2020.08.11 11:57:00 INFO  time: compiled hello-world in 0.43s
+2020.08.11 12:04:53 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:04:53 INFO  time: compiled hello-world in 58ms
+2020.08.11 12:04:55 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:04:55 INFO  time: compiled hello-world in 45ms
+2020.08.11 12:05:10 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:05:10 INFO  time: compiled hello-world in 48ms
+2020.08.11 12:05:12 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:05:12 INFO  time: compiled hello-world in 45ms
+2020.08.11 12:05:22 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:05:22 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.11 12:05:22 INFO  time: compiled hello-world in 0.46s
+2020.08.11 12:18:54 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:18:54 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.11 12:18:54 INFO  time: compiled hello-world in 0.47s
+2020.08.11 12:24:22 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:24:22 WARN  there were 9 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.11 12:24:22 INFO  time: compiled hello-world in 0.46s
+2020.08.11 12:25:03 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:25:03 WARN  there were 8 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.11 12:25:03 INFO  time: compiled hello-world in 0.46s
+2020.08.11 12:27:49 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:27:49 INFO  time: compiled hello-world in 0.33s
+2020.08.11 12:30:58 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:30:58 INFO  time: compiled hello-world in 40ms
+2020.08.11 12:31:00 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:31:00 INFO  time: compiled hello-world in 35ms
+2020.08.11 12:31:48 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:31:48 INFO  time: compiled hello-world in 47ms
+2020.08.11 12:31:50 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:31:50 INFO  time: compiled hello-world in 43ms
+2020.08.11 12:32:05 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:32:05 INFO  time: compiled hello-world in 37ms
+2020.08.11 12:32:07 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:32:07 INFO  time: compiled hello-world in 34ms
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in (Int, Int)RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 131, 131, 146)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in (Int, Int)RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 131, 131, 146)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in (Int, Int)RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 131, 131, 146)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in (Int, Int)RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 131, 131, 146)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in (Int, Int)RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 131, 131, 146)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in (Int, Int)RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 131, 131, 146)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in (Int, Int)RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 131, 131, 146)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in (Int, Int)RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 131, 131, 146)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in (Int, Int)RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 131, 131, 146)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in (Int, Int)RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 131, 131, 146)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in (Int, Int)RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 131, 131, 147)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in (Int, Int)RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 131, 131, 147)
+2020.08.11 12:32:42 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:32:42 INFO  time: compiled hello-world in 39ms
+2020.08.11 12:32:45 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:32:45 INFO  time: compiled hello-world in 33ms
+2020.08.11 12:32:48 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:32:48 INFO  time: compiled hello-world in 45ms
+2020.08.11 12:32:50 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:32:50 INFO  time: compiled hello-world in 44ms
+2020.08.11 12:33:55 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:33:55 INFO  time: compiled hello-world in 52ms
+2020.08.11 12:33:58 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:33:58 INFO  time: compiled hello-world in 53ms
+2020.08.11 12:35:56 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:35:56 INFO  time: compiled hello-world in 52ms
+2020.08.11 12:35:58 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:35:58 INFO  time: compiled hello-world in 46ms
+2020.08.11 12:39:43 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:39:43 INFO  time: compiled hello-world in 64ms
+2020.08.11 12:39:45 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:39:45 INFO  time: compiled hello-world in 56ms
+2020.08.11 12:39:59 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:39:59 INFO  time: compiled hello-world in 63ms
+2020.08.11 12:40:01 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:40:01 INFO  time: compiled hello-world in 62ms
+2020.08.11 12:40:12 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:40:12 INFO  time: compiled hello-world in 0.45s
+2020.08.11 12:41:39 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:41:39 INFO  time: compiled hello-world in 0.42s
+2020.08.11 12:44:08 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:44:08 INFO  time: compiled hello-world in 0.46s
+2020.08.11 12:56:31 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:56:31 INFO  time: compiled hello-world in 0.12s
+2020.08.11 12:56:33 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:56:33 INFO  time: compiled hello-world in 74ms
+2020.08.11 12:56:36 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:56:36 INFO  time: compiled hello-world in 80ms
+2020.08.11 12:56:38 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:56:38 INFO  time: compiled hello-world in 74ms
+2020.08.11 12:57:00 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:57:00 INFO  time: compiled hello-world in 78ms
+2020.08.11 12:57:02 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:57:02 INFO  time: compiled hello-world in 59ms
+2020.08.11 12:57:17 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:57:17 INFO  time: compiled hello-world in 73ms
+2020.08.11 12:57:19 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:57:19 INFO  time: compiled hello-world in 56ms
+2020.08.11 12:59:27 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:59:27 INFO  time: compiled hello-world in 0.61s
+2020.08.11 12:59:52 INFO  compiling hello-world (1 scala source)
+2020.08.11 12:59:52 INFO  time: compiled hello-world in 0.54s
+2020.08.11 13:01:32 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:01:32 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.11 13:01:32 INFO  time: compiled hello-world in 0.58s
+2020.08.11 13:02:11 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:02:11 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.11 13:02:11 INFO  time: compiled hello-world in 0.57s
+2020.08.11 13:02:30 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:02:30 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.11 13:02:30 INFO  time: compiled hello-world in 0.54s
+2020.08.11 13:02:57 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:02:57 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.11 13:02:57 INFO  time: compiled hello-world in 0.53s
+2020.08.11 13:03:23 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:03:23 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.11 13:03:23 INFO  time: compiled hello-world in 0.62s
+2020.08.11 13:04:00 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:04:00 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.11 13:04:00 INFO  time: compiled hello-world in 0.53s
+2020.08.11 13:05:55 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:05:55 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.11 13:05:55 INFO  time: compiled hello-world in 0.48s
+2020.08.11 13:09:52 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:09:52 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.11 13:09:52 INFO  time: compiled hello-world in 0.5s
+2020.08.11 13:10:11 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:10:11 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.11 13:10:11 INFO  time: compiled hello-world in 0.51s
+2020.08.11 13:11:18 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:11:18 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.11 13:11:18 INFO  time: compiled hello-world in 0.5s
+2020.08.11 13:14:47 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:14:47 WARN  there were three deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.11 13:14:47 INFO  time: compiled hello-world in 0.51s
+2020.08.11 13:15:08 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:15:08 WARN  there were three deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.11 13:15:08 INFO  time: compiled hello-world in 0.61s
+2020.08.11 13:17:28 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:17:28 INFO  time: compiled hello-world in 41ms
+2020.08.11 13:17:30 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:17:30 INFO  time: compiled hello-world in 34ms
+2020.08.11 13:18:53 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:18:53 INFO  time: compiled hello-world in 44ms
+2020.08.11 13:18:55 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:18:55 INFO  time: compiled hello-world in 37ms
+2020.08.11 13:19:08 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:19:08 INFO  time: compiled hello-world in 40ms
+2020.08.11 13:19:10 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:19:10 INFO  time: compiled hello-world in 33ms
+2020.08.11 13:50:26 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:50:26 INFO  time: compiled hello-world in 45ms
+2020.08.11 13:50:28 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:50:28 INFO  time: compiled hello-world in 35ms
+2020.08.11 13:50:56 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:50:56 INFO  time: compiled hello-world in 74ms
+2020.08.11 13:50:58 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:50:58 INFO  time: compiled hello-world in 58ms
+2020.08.11 13:51:13 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:51:13 INFO  time: compiled hello-world in 44ms
+2020.08.11 13:51:15 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:51:15 INFO  time: compiled hello-world in 32ms
+2020.08.11 13:51:17 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:51:17 WARN  there were four deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.11 13:51:17 INFO  time: compiled hello-world in 0.59s
+2020.08.11 13:54:52 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:54:52 WARN  there were four deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.11 13:54:52 INFO  time: compiled hello-world in 0.55s
+2020.08.11 13:57:15 INFO  compiling hello-world (1 scala source)
+2020.08.11 13:57:15 INFO  time: compiled hello-world in 0.41s
+2020.08.11 14:01:28 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:01:28 INFO  time: compiled hello-world in 61ms
+2020.08.11 14:01:30 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:01:30 INFO  time: compiled hello-world in 48ms
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 176, 176, 191)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 176, 176, 184)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Int]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 176, 176, 186)
+2020.08.11 14:01:38 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:01:38 INFO  time: compiled hello-world in 0.42s
+2020.08.11 14:07:43 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:07:43 INFO  time: compiled hello-world in 77ms
+2020.08.11 14:07:45 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:07:45 INFO  time: compiled hello-world in 69ms
+2020.08.11 14:08:33 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:08:33 INFO  time: compiled hello-world in 84ms
+2020.08.11 14:08:35 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:08:35 INFO  time: compiled hello-world in 75ms
+2020.08.11 14:09:16 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:09:16 INFO  time: compiled hello-world in 78ms
+2020.08.11 14:09:19 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:09:19 INFO  time: compiled hello-world in 72ms
+2020.08.11 14:09:25 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:09:25 INFO  time: compiled hello-world in 0.53s
+2020.08.11 14:09:54 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:09:54 INFO  time: compiled hello-world in 89ms
+2020.08.11 14:09:56 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:09:56 INFO  time: compiled hello-world in 79ms
+2020.08.11 14:10:23 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:10:23 INFO  time: compiled hello-world in 78ms
+2020.08.11 14:10:26 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:10:26 INFO  time: compiled hello-world in 71ms
+2020.08.11 14:10:36 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:10:36 INFO  time: compiled hello-world in 0.54s
+2020.08.11 14:11:29 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:11:29 INFO  time: compiled hello-world in 0.53s
+2020.08.11 14:14:18 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:14:18 INFO  time: compiled hello-world in 0.4s
+2020.08.11 14:18:28 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:18:28 INFO  time: compiled hello-world in 76ms
+2020.08.11 14:18:30 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:18:30 INFO  time: compiled hello-world in 59ms
+2020.08.11 14:21:10 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:21:10 INFO  time: compiled hello-world in 0.49s
+2020.08.11 14:27:27 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:27:27 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.11 14:27:27 INFO  time: compiled hello-world in 0.75s
+2020.08.11 14:28:38 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:28:38 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.11 14:28:38 INFO  time: compiled hello-world in 0.48s
+2020.08.11 14:29:11 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:29:11 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.11 14:29:11 INFO  time: compiled hello-world in 0.47s
+2020.08.11 14:29:32 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:29:32 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.11 14:29:32 INFO  time: compiled hello-world in 0.47s
+2020.08.11 14:34:29 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:34:29 INFO  time: compiled hello-world in 0.6s
+2020.08.11 14:35:50 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:35:50 INFO  time: compiled hello-world in 0.54s
+2020.08.11 14:37:59 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:37:59 INFO  time: compiled hello-world in 0.53s
+2020.08.11 14:38:27 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:38:27 INFO  time: compiled hello-world in 0.54s
+2020.08.11 14:38:43 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:38:43 INFO  time: compiled hello-world in 0.56s
+2020.08.11 14:48:25 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:48:25 INFO  time: compiled hello-world in 0.53s
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Int]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 1324, 1324, 1334)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Int]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 1324, 1324, 1334)
+2020.08.11 14:53:22 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:53:22 INFO  time: compiled hello-world in 46ms
+2020.08.11 14:53:24 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:53:24 INFO  time: compiled hello-world in 38ms
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in List[Int]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 1324, 1324, 1333)
+2020.08.11 14:53:34 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:53:34 INFO  time: compiled hello-world in 37ms
+2020.08.11 14:53:36 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:53:36 INFO  time: compiled hello-world in 39ms
+2020.08.11 14:53:53 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:53:53 INFO  time: compiled hello-world in 67ms
+2020.08.11 14:53:55 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:53:55 INFO  time: compiled hello-world in 63ms
+2020.08.11 14:54:13 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:54:13 INFO  time: compiled hello-world in 65ms
+2020.08.11 14:54:15 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:54:15 INFO  time: compiled hello-world in 71ms
+2020.08.11 14:55:24 INFO  compiling hello-world (1 scala source)
+2020.08.11 14:55:24 INFO  time: compiled hello-world in 0.43s
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in List[Int]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 1498, 1498, 1507)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in List[Int]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 1498, 1498, 1507)
+2020.08.11 15:00:40 INFO  compiling hello-world (1 scala source)
+2020.08.11 15:00:40 INFO  time: compiled hello-world in 0.57s
+2020.08.11 15:01:50 INFO  compiling hello-world (1 scala source)
+2020.08.11 15:01:50 INFO  time: compiled hello-world in 0.55s
+2020.08.11 15:02:07 INFO  compiling hello-world (1 scala source)
+2020.08.11 15:02:07 INFO  time: compiled hello-world in 0.56s
+2020.08.11 15:07:22 INFO  compiling hello-world (1 scala source)
+2020.08.11 15:07:22 INFO  time: compiled hello-world in 0.58s
+2020.08.11 15:08:08 INFO  compiling hello-world (1 scala source)
+2020.08.11 15:08:08 INFO  time: compiled hello-world in 0.57s
+2020.08.11 15:12:46 INFO  compiling hello-world (1 scala source)
+2020.08.11 15:12:46 INFO  time: compiled hello-world in 0.59s
+2020.08.11 15:12:53 INFO  compiling hello-world (1 scala source)
+2020.08.11 15:12:53 INFO  time: compiled hello-world in 0.37s
+2020.08.11 15:13:31 INFO  compiling hello-world (1 scala source)
+2020.08.11 15:13:31 INFO  time: compiled hello-world in 0.36s
+2020.08.11 15:15:53 INFO  compiling hello-world (1 scala source)
+2020.08.11 15:15:53 INFO  time: compiled hello-world in 0.37s
+2020.08.11 16:01:44 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:01:44 INFO  time: compiled hello-world in 0.41s
+2020.08.11 16:03:17 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:03:17 INFO  time: compiled hello-world in 63ms
+2020.08.11 16:03:19 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:03:19 INFO  time: compiled hello-world in 63ms
+2020.08.11 16:03:28 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:03:28 INFO  time: compiled hello-world in 0.41s
+2020.08.11 16:04:24 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:04:24 INFO  time: compiled hello-world in 0.46s
+2020.08.11 16:06:37 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:06:37 INFO  time: compiled hello-world in 0.43s
+2020.08.11 16:09:50 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:09:50 INFO  time: compiled hello-world in 0.46s
+2020.08.11 16:23:59 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:23:59 INFO  time: compiled hello-world in 88ms
+2020.08.11 16:24:01 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:24:01 INFO  time: compiled hello-world in 69ms
+2020.08.11 16:24:56 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:24:56 INFO  time: compiled hello-world in 80ms
+2020.08.11 16:24:59 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:24:59 INFO  time: compiled hello-world in 80ms
+2020.08.11 16:25:17 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:25:17 INFO  time: compiled hello-world in 78ms
+2020.08.11 16:25:19 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:25:19 INFO  time: compiled hello-world in 71ms
+2020.08.11 16:26:02 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:26:02 INFO  time: compiled hello-world in 79ms
+2020.08.11 16:26:05 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:26:05 INFO  time: compiled hello-world in 78ms
+2020.08.11 16:26:33 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:26:33 INFO  time: compiled hello-world in 72ms
+2020.08.11 16:26:35 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:26:35 INFO  time: compiled hello-world in 74ms
+2020.08.11 16:26:43 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:26:43 INFO  time: compiled hello-world in 74ms
+2020.08.11 16:26:45 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:26:45 INFO  time: compiled hello-world in 91ms
+2020.08.11 16:26:47 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:26:47 INFO  time: compiled hello-world in 70ms
+2020.08.11 16:26:53 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:26:53 INFO  time: compiled hello-world in 0.75s
+2020.08.11 16:27:30 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:27:30 INFO  time: compiled hello-world in 0.66s
+2020.08.11 16:28:05 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:28:05 INFO  time: compiled hello-world in 0.49s
+Aug 11, 2020 4:29:11 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 11, 2020 4:29:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: bad position: [398:353]
+java.lang.AssertionError: assertion failed: bad position: [398:353]
+	at scala.reflect.internal.util.Position$.validate(Position.scala:41)
+	at scala.reflect.internal.util.Position$.range(Position.scala:58)
+	at scala.reflect.internal.util.InternalPositionImpl.withStart(Position.scala:220)
+	at scala.reflect.internal.util.InternalPositionImpl.withStart$(Position.scala:135)
+	at scala.reflect.internal.util.Position.withStart(Position.scala:19)
+	at scala.meta.internal.pc.CompletionProvider.editRange$lzycompute$1(CompletionProvider.scala:364)
+	at scala.meta.internal.pc.CompletionProvider.editRange$2(CompletionProvider.scala:363)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:372)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:468)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+2020.08.11 16:29:33 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:29:33 INFO  time: compiled hello-world in 0.53s
+2020.08.11 16:30:49 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:30:49 INFO  time: compiled hello-world in 0.53s
+2020.08.11 16:31:32 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:31:32 INFO  time: compiled hello-world in 0.6s
+2020.08.11 16:33:53 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:33:53 INFO  time: compiled hello-world in 46ms
+2020.08.11 16:33:55 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:33:55 INFO  time: compiled hello-world in 32ms
+2020.08.11 16:33:58 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:33:58 INFO  time: compiled hello-world in 34ms
+2020.08.11 16:34:27 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:34:27 INFO  time: compiled hello-world in 44ms
+2020.08.11 16:34:29 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:34:29 INFO  time: compiled hello-world in 34ms
+2020.08.11 16:35:33 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:35:33 INFO  time: compiled hello-world in 93ms
+2020.08.11 16:35:35 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:35:35 INFO  time: compiled hello-world in 83ms
+2020.08.11 16:36:13 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:36:13 INFO  time: compiled hello-world in 0.12s
+2020.08.11 16:36:15 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:36:15 INFO  time: compiled hello-world in 81ms
+2020.08.11 16:36:20 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:36:20 INFO  time: compiled hello-world in 80ms
+2020.08.11 16:36:22 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:36:22 INFO  time: compiled hello-world in 71ms
+2020.08.11 16:36:39 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:36:39 INFO  time: compiled hello-world in 0.53s
+2020.08.11 16:37:46 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:37:46 INFO  time: compiled hello-world in 0.6s
+2020.08.11 16:43:29 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:43:29 INFO  time: compiled hello-world in 47ms
+2020.08.11 16:43:31 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:43:31 INFO  time: compiled hello-world in 44ms
+2020.08.11 16:43:45 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:43:45 INFO  time: compiled hello-world in 48ms
+2020.08.11 16:43:47 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:43:47 INFO  time: compiled hello-world in 40ms
+2020.08.11 16:44:06 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:44:06 INFO  time: compiled hello-world in 43ms
+2020.08.11 16:44:08 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:44:08 INFO  time: compiled hello-world in 34ms
+2020.08.11 16:44:11 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:44:11 INFO  time: compiled hello-world in 94ms
+2020.08.11 16:44:13 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:44:13 INFO  time: compiled hello-world in 78ms
+2020.08.11 16:44:20 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:44:20 INFO  time: compiled hello-world in 83ms
+2020.08.11 16:44:22 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:44:22 INFO  time: compiled hello-world in 71ms
+2020.08.11 16:46:23 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:46:23 INFO  time: compiled hello-world in 78ms
+2020.08.11 16:46:25 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:46:25 INFO  time: compiled hello-world in 75ms
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 296, 296, 311)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 296, 296, 304)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 296, 296, 305)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 296, 296, 306)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[String]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 296, 296, 309)
+2020.08.11 16:46:36 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:46:36 INFO  time: compiled hello-world in 98ms
+2020.08.11 16:46:39 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:46:39 INFO  time: compiled hello-world in 80ms
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[String]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 296, 296, 309)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Iterator[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 302, 302, 320)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Iterator[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 302, 302, 313)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Iterator[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 302, 302, 315)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Iterator[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 302, 302, 316)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Iterator[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 302, 302, 315)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Iterator[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 302, 302, 317)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 311, 311, 326)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 311, 311, 319)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Char]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 311, 311, 322)
+2020.08.11 16:46:56 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:46:56 INFO  time: compiled hello-world in 0.11s
+2020.08.11 16:46:58 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:46:58 INFO  time: compiled hello-world in 83ms
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Iterator[Array[Char]]]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 296, 296, 324)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Iterator[Array[Char]]]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 296, 296, 324)
+2020.08.11 16:47:09 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:47:09 INFO  time: compiled hello-world in 88ms
+2020.08.11 16:47:11 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:47:11 INFO  time: compiled hello-world in 78ms
+2020.08.11 16:47:32 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:47:32 INFO  time: compiled hello-world in 45ms
+2020.08.11 16:47:35 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:47:35 INFO  time: compiled hello-world in 36ms
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Char]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 305, 305, 316)
+2020.08.11 16:48:25 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:48:25 INFO  time: compiled hello-world in 69ms
+2020.08.11 16:48:27 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:48:27 INFO  time: compiled hello-world in 32ms
+2020.08.11 16:48:36 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:48:36 INFO  time: compiled hello-world in 88ms
+2020.08.11 16:48:38 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:48:38 INFO  time: compiled hello-world in 78ms
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Char]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 306, 306, 317)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Char]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 306, 306, 317)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Char]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 306, 306, 317)
+2020.08.11 16:49:19 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:49:19 INFO  time: compiled hello-world in 86ms
+2020.08.11 16:49:21 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:49:21 INFO  time: compiled hello-world in 72ms
+2020.08.11 16:49:52 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:49:52 INFO  time: compiled hello-world in 0.64s
+2020.08.11 16:50:41 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:50:41 INFO  time: compiled hello-world in 0.53s
+2020.08.11 16:54:46 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:54:46 INFO  time: compiled hello-world in 80ms
+2020.08.11 16:54:48 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:54:48 INFO  time: compiled hello-world in 66ms
+2020.08.11 16:55:02 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:55:02 INFO  time: compiled hello-world in 0.5s
+2020.08.11 16:56:15 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:56:15 INFO  time: compiled hello-world in 91ms
+2020.08.11 16:56:17 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:56:17 INFO  time: compiled hello-world in 70ms
+2020.08.11 16:57:13 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:57:13 INFO  time: compiled hello-world in 72ms
+2020.08.11 16:57:15 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:57:15 INFO  time: compiled hello-world in 72ms
+2020.08.11 16:58:02 INFO  compiling hello-world (1 scala source)
+2020.08.11 16:58:02 INFO  time: compiled hello-world in 0.54s
+2020.08.11 17:01:17 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:01:17 INFO  time: compiled hello-world in 0.24s
+2020.08.11 17:01:19 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:01:19 INFO  time: compiled hello-world in 76ms
+2020.08.11 17:02:10 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:02:10 INFO  time: compiled hello-world in 75ms
+2020.08.11 17:02:12 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:02:12 INFO  time: compiled hello-world in 76ms
+2020.08.11 17:02:28 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:02:28 INFO  time: compiled hello-world in 76ms
+2020.08.11 17:02:30 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:02:30 INFO  time: compiled hello-world in 74ms
+2020.08.11 17:03:08 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:03:08 INFO  time: compiled hello-world in 0.56s
+2020.08.11 17:03:46 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:03:46 INFO  time: compiled hello-world in 74ms
+2020.08.11 17:03:48 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:03:48 INFO  time: compiled hello-world in 68ms
+2020.08.11 17:04:00 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:04:00 INFO  time: compiled hello-world in 0.5s
+2020.08.11 17:04:59 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:04:59 INFO  time: compiled hello-world in 0.52s
+2020.08.11 17:05:34 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:05:34 INFO  time: compiled hello-world in 0.53s
+2020.08.11 17:06:05 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:06:05 INFO  time: compiled hello-world in 0.5s
+2020.08.11 17:06:20 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:06:20 INFO  time: compiled hello-world in 0.53s
+2020.08.11 17:10:16 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:10:16 INFO  time: compiled hello-world in 0.5s
+2020.08.11 17:10:25 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:10:25 INFO  time: compiled hello-world in 0.51s
+2020.08.11 17:11:30 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:11:30 INFO  time: compiled hello-world in 0.51s
+2020.08.11 17:14:21 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:14:21 INFO  time: compiled hello-world in 72ms
+2020.08.11 17:14:23 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:14:23 INFO  time: compiled hello-world in 70ms
+2020.08.11 17:15:11 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:15:11 INFO  time: compiled hello-world in 41ms
+2020.08.11 17:15:13 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:15:13 INFO  time: compiled hello-world in 41ms
+2020.08.11 17:15:44 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:15:44 INFO  time: compiled hello-world in 78ms
+2020.08.11 17:15:46 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:15:46 INFO  time: compiled hello-world in 73ms
+2020.08.11 17:16:05 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:16:05 INFO  time: compiled hello-world in 72ms
+2020.08.11 17:16:07 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:16:07 INFO  time: compiled hello-world in 72ms
+2020.08.11 17:16:18 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:16:18 INFO  time: compiled hello-world in 74ms
+2020.08.11 17:16:20 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:16:20 INFO  time: compiled hello-world in 68ms
+2020.08.11 17:16:53 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:16:53 INFO  time: compiled hello-world in 0.51s
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 595, 595, 610)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 595, 595, 603)
+something's wrong: no file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala in Array[Char]RangePosition(file:///c%3A/Users/glgre/Documents/testCode/hello-world/src/main/scala/Main.scala, 595, 595, 606)
+2020.08.11 17:18:15 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:18:15 INFO  time: compiled hello-world in 0.52s
+2020.08.11 17:18:37 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:18:37 INFO  time: compiled hello-world in 0.52s
+2020.08.11 17:19:54 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:19:54 INFO  time: compiled hello-world in 0.53s
+2020.08.11 17:20:02 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:20:02 INFO  time: compiled hello-world in 0.53s
+2020.08.11 17:21:58 INFO  compiling hello-world (1 scala source)
+2020.08.11 17:21:58 INFO  time: compiled hello-world in 0.55s
+2020.08.11 17:36:16 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2020.08.14 11:04:09 INFO  started: Metals version 0.9.2 in workspace 'C:\Users\glgre\Documents\testCode\hello-world' for client vscode.
+2020.08.14 11:04:10 INFO  time: initialize in 0.85s
+2020.08.14 11:04:11 INFO  no build target: using presentation compiler with only scala-library
+2020.08.14 11:04:11 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 22644'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.08.14 11:04:12 WARN  no build target for: C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\Main.scala
+Aug 14, 2020 11:04:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Aug 14, 2020 11:04:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Aug 14, 2020 11:04:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Aug 14, 2020 11:04:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Aug 14, 2020 11:04:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Aug 14, 2020 11:04:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Aug 14, 2020 11:04:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Aug 14, 2020 11:04:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Aug 14, 2020 11:04:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\glgre\Documents\testCode\hello-world\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\glgre\Documents\testCode\hello-world\.bloop\hello-world.json'
+[0m[32m[D][0m Loading project from 'c:\Users\glgre\Documents\testCode\hello-world\.bloop\hello-world-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.1\scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\glgre\Documents\testCode\hello-world\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.1\scala-reflect-2.13.1.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'hello-world', 'hello-world-test'
+[0m[32m[D][0m Missing analysis file for project 'hello-world-test'
+[0m[32m[D][0m Loading previous analysis for 'hello-world' from 'C:\Users\glgre\Documents\testCode\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:22644...
+The server is listening for incoming connections at tcp://127.0.0.1:22644...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.14 11:04:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\glgre\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.08.14 11:04:17 INFO  time: connected to build server in 6.03s
+2020.08.14 11:04:17 INFO  Connected to Build server v1.4.3
+2020.08.14 11:04:17 INFO  time: imported build in 0.12s
+Aug 14, 2020 11:04:17 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.08.14 11:04:18 INFO  time: indexed workspace in 1.65s
+Aug 14, 2020 11:04:28 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Aug 14, 2020 11:04:57 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Aug 14, 2020 11:05:19 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Aug 14, 2020 11:05:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Aug 14, 2020 11:06:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.08.14 11:07:48 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2020.08.14 11:07:58 INFO  started: Metals version 0.9.2 in workspace 'C:\Users\glgre\Documents\testCode\hello-world' for client vscode.
+2020.08.14 11:07:59 INFO  time: initialize in 0.83s
+2020.08.14 11:07:59 INFO  no build target: using presentation compiler with only scala-library
+2020.08.14 11:07:59 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 16542'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:16542...
+The server is listening for incoming connections at tcp://127.0.0.1:16542...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.14 11:08:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\glgre\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.08.14 11:08:00 INFO  time: connected to build server in 0.61s
+2020.08.14 11:08:00 INFO  Connected to Build server v1.4.3
+2020.08.14 11:08:00 INFO  time: imported build in 0.11s
+2020.08.14 11:08:01 INFO  time: indexed workspace in 1.22s
+Aug 14, 2020 11:08:07 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
