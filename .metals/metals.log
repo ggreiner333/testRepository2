@@ -3344,3 +3344,41 @@ something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/
 2020.08.20 14:22:47 INFO  compiling hello-world (1 scala source)
 2020.08.20 14:22:47 WARN  there were 7 deprecation warnings (since 2.13.0); re-run with -deprecation for details
 2020.08.20 14:22:47 INFO  time: compiled hello-world in 0.73s
+2020.08.20 14:26:09 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:26:09 INFO  time: compiled hello-world in 0.41s
+2020.08.20 14:27:56 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:27:56 INFO  time: compiled hello-world in 0.37s
+2020.08.20 14:28:13 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:28:13 INFO  time: compiled hello-world in 50ms
+2020.08.20 14:30:00 INFO  compiling hello-world (2 scala sources)
+2020.08.20 14:30:00 INFO  time: compiled hello-world in 90ms
+2020.08.20 14:30:09 INFO  compiling hello-world (2 scala sources)
+2020.08.20 14:30:09 INFO  time: compiled hello-world in 85ms
+2020.08.20 14:30:11 INFO  compiling hello-world (2 scala sources)
+2020.08.20 14:30:11 INFO  time: compiled hello-world in 75ms
+2020.08.20 14:30:21 INFO  compiling hello-world (2 scala sources)
+2020.08.20 14:30:21 WARN  there were 8 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:30:21 INFO  time: compiled hello-world in 0.61s
+2020.08.20 14:32:21 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:32:21 WARN  there were 8 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:32:21 INFO  time: compiled hello-world in 0.58s
+2020.08.20 14:34:35 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:34:35 WARN  there were 8 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:34:35 INFO  time: compiled hello-world in 0.71s
+2020.08.20 14:35:22 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:35:22 WARN  there were 8 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:35:22 INFO  time: compiled hello-world in 0.69s
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[Double]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 2048, 2048, 2061)
+2020.08.20 14:36:24 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:36:24 INFO  time: compiled hello-world in 41ms
+2020.08.20 14:36:54 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:36:54 WARN  there were 8 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:36:54 INFO  time: compiled hello-world in 0.64s
+2020.08.20 14:39:23 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:39:23 WARN  there were 8 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:39:23 INFO  time: compiled hello-world in 0.59s
+2020.08.20 14:41:01 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:41:01 WARN  there were 8 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:41:01 INFO  time: compiled hello-world in 0.62s
+Aug 20, 2020 2:43:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
