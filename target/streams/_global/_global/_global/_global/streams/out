@@ -1,5 +1,43 @@
 [0m[[0m[0mdebug[0m] [0m[0m[watch] [hello-world / Compile / run] Found inputs: C:\Users\glgre\Documents\testCode\hello-world\*.{java,scala},C:\Users\glgre\Documents\testCode\hello-world\src\main\java\**\*.{java,scala},C:\Users\glgre\Documents\testCode\hello-world\src\main\resources\**\*,C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\**\*.{java,scala},C:\Users\glgre\Documents\testCode\hello-world\src\main\scala-2.13\**\*.{java,scala}[0m
+[0m[[0m[0mdebug[0m] [0m[0mhello-world / Compile / run - Accepted event for C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mhello-world / Compile / run - Accepted event for C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mhello-world / Compile / run - Accepted event for C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
 [0m[[0m[0minfo[0m] [0m[0m1. Monitoring source files for hello-world/run...[0m
 [0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received input event: Run().[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received input event: Run().[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala (previous stamp: Hash(65b8bfe0a45d2057e37b39e5c0d731fd012a0814), current stamp: Hash(c658b88efaf8f34c99ca6c569764586e8c0cb5ac))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala -> Trigger. Returning: (Update(C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala, 2020-Aug-20 14:39:23.170 CT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala, 2020-Aug-20 14:39:23.170 CT).[0m
+[0m[[0m[0mdebug[0m] [0m[0mhello-world / Compile / run - Accepted event for C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mhello-world / Compile / run - Accepted event for C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mhello-world / Compile / run - Accepted event for C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mhello-world / Compile / run - Accepted event for C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mhello-world / Compile / run - Accepted event for C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mhello-world / Compile / run - Accepted event for C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mhello-world / Compile / run - Accepted event for C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mhello-world / Compile / run - Accepted event for C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0minfo[0m] [0m[0m2. Monitoring source files for hello-world/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala (previous stamp: Hash(c658b88efaf8f34c99ca6c569764586e8c0cb5ac), current stamp: Hash(20dfe41ff6b8b82c7a7227a3e40de167fec69ee8))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala -> Trigger. Returning: (Update(C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala, 2020-Aug-20 14:40:33.536 CT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala, 2020-Aug-20 14:40:33.536 CT).[0m
+[0m[[0m[0minfo[0m] [0m[0m3. Monitoring source files for hello-world/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received input event: Run(exit).[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received input event: Run(exit).[0m

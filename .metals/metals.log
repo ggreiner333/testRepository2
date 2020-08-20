@@ -2076,3 +2076,1271 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 2020.08.20 12:31:28 INFO  Connected to Build server v1.4.3
 2020.08.20 12:31:28 INFO  time: imported build in 0.12s
 2020.08.20 12:31:30 INFO  time: indexed workspace in 1.86s
+2020.08.20 13:07:12 WARN  no build target for: C:\Users\glgre\Documents\testCode\hello-world\RPN.scala
+2020.08.20 13:07:17 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:07:19 INFO  time: compiled hello-world in 2.52s
+2020.08.20 13:08:26 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:08:26 INFO  time: compiled hello-world in 0.12s
+2020.08.20 13:08:28 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:08:28 INFO  time: compiled hello-world in 66ms
+2020.08.20 13:08:32 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:08:32 INFO  time: compiled hello-world in 0.74s
+2020.08.20 13:10:02 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:10:02 INFO  time: compiled hello-world in 0.55s
+2020.08.20 13:10:53 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:10:53 INFO  time: compiled hello-world in 0.53s
+2020.08.20 13:22:51 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:22:51 INFO  time: compiled hello-world in 52ms
+2020.08.20 13:22:53 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:22:53 INFO  time: compiled hello-world in 46ms
+2020.08.20 13:23:54 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:23:54 INFO  time: compiled hello-world in 0.54s
+2020.08.20 13:28:17 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:28:17 INFO  time: compiled hello-world in 0.17s
+2020.08.20 13:28:19 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:28:19 INFO  time: compiled hello-world in 0.11s
+2020.08.20 13:28:30 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:28:30 INFO  time: compiled hello-world in 0.13s
+2020.08.20 13:28:32 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:28:32 INFO  time: compiled hello-world in 0.11s
+2020.08.20 13:28:38 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:28:38 INFO  time: compiled hello-world in 0.58s
+2020.08.20 13:31:04 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2020.08.20 13:35:37 INFO  started: Metals version 0.9.3 in workspace 'C:\Users\glgre\Documents\testCode\hello-world' for client vscode.
+2020.08.20 13:35:38 INFO  time: initialize in 0.9s
+2020.08.20 13:35:39 INFO  no build target: using presentation compiler with only scala-library
+2020.08.20 13:35:39 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 25311'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:25311...
+The server is listening for incoming connections at tcp://127.0.0.1:25311...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.20 13:35:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\glgre\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.08.20 13:35:39 INFO  time: connected to build server in 0.7s
+2020.08.20 13:35:39 INFO  Connected to Build server v1.4.3
+2020.08.20 13:35:41 INFO  time: indexed workspace in 1.28s
+2020.08.20 13:35:41 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.9.3' (since 1.418s)
+Aug 20, 2020 1:35:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[<error>]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 577, 577, 592)
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[<error>]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 577, 577, 585)
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[<error>]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 577, 577, 586)
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[Int]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 577, 577, 587)
+Aug 20, 2020 1:36:49 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 635, count -1, length 652
+2020.08.20 13:44:57 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:44:57 WARN  there were four deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 13:44:57 INFO  time: compiled hello-world in 0.68s
+Aug 20, 2020 1:53:29 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:53:29 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:53:30 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:53:30 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:53:31 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:53:31 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:53:31 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:53:31 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:53:34 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:54:20 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:54:21 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:54:21 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:54:26 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:54:26 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:54:29 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:54:29 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:54:30 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:54:31 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:54:31 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 20, 2020 1:54:31 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020.08.20 13:54:59 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:54:59 INFO  time: compiled hello-world in 84ms
+2020.08.20 13:55:06 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:55:06 INFO  time: compiled hello-world in 0.1s
+2020.08.20 13:55:14 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:60:9: stale bloop error: only declarations allowed here
+        val chars = input.toCharArray()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.08.20 13:55:14 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:58:5: stale bloop error: only traits and abstract classes can have declared but undefined members
+> def isDigitInput(input : String) : Boolean {
+>         var curChar : Char
+>         val chars = input.toCharArray()
+> 
+>     }
+2020.08.20 13:55:14 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:60:9: stale bloop error: only declarations allowed here
+        val chars = input.toCharArray()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.08.20 13:55:14 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:58:5: stale bloop error: only traits and abstract classes can have declared but undefined members
+> def isDigitInput(input : String) : Boolean {
+>         var curChar : Char
+>         val chars = input.toCharArray()
+> 
+>     }
+2020.08.20 13:55:17 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:60:9: stale bloop error: only declarations allowed here
+        val chars = input.toCharArray()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.08.20 13:55:17 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:58:5: stale bloop error: only traits and abstract classes can have declared but undefined members
+> def isDigitInput(input : String) : Boolean {
+>         var curChar : Char
+>         val chars = input.toCharArray()
+> 
+>     }
+2020.08.20 13:55:17 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:55:17 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:17 INFO  time: compiled hello-world in 46ms
+2020.08.20 13:55:31 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:31 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:31 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:32 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:31 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:32 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:32 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:32 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:51 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:51 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:52 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:52 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:54 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:54 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:56 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:56 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:56 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:56 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:56 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:56 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:56 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:56 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:56 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:56 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:56 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:56 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:57 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:57 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:57 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:55:58 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:56:03 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:56:03 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:56:10 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:56:10 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:56:10 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:56:10 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:56:13 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:56:13 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:56:13 INFO  time: compiled hello-world in 47ms
+2020.08.20 13:56:21 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:56:21 INFO  time: compiled hello-world in 0.1s
+2020.08.20 13:56:26 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:56:26 INFO  time: compiled hello-world in 0.12s
+2020.08.20 13:56:49 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:56:49 WARN  there were four deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 13:56:49 INFO  time: compiled hello-world in 0.7s
+2020.08.20 13:56:58 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:56:58 INFO  time: compiled hello-world in 44ms
+2020.08.20 13:57:06 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:57:06 INFO  time: compiled hello-world in 94ms
+2020.08.20 13:57:13 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:9: stale bloop error: only traits and abstract classes can have declared but undefined members
+        var curChar : Char
+        ^^^^^^^^^^^^^^^^^^
+2020.08.20 13:57:13 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:9: stale bloop error: only traits and abstract classes can have declared but undefined members
+        var curChar : Char
+        ^^^^^^^^^^^^^^^^^^
+2020.08.20 13:57:15 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:9: stale bloop error: only traits and abstract classes can have declared but undefined members
+        var curChar : Char
+        ^^^^^^^^^^^^^^^^^^
+2020.08.20 13:57:15 INFO  compiling hello-world (1 scala source)
+2020.08.20 13:57:15 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:15 INFO  time: compiled hello-world in 43ms
+2020.08.20 13:57:17 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:17 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:17 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:18 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:20 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:20 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:21 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:23 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:27 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:27 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:27 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:27 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:27 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:28 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:28 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:28 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:28 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:29 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:29 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:29 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:30 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:29 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:30 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:35 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:35 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:37 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:37 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:39 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:39 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:39 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:39 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:39 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:39 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:39 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:39 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:40 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:40 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:40 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:40 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:40 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:40 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:41 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:41 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:41 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:41 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:41 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:41 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:41 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:41 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:41 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:42 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:43 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:43 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:43 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:43 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:43 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:43 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:43 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:43 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:43 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:44 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:44 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:44 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:44 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:45 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:45 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:45 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:45 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:46 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:47 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:47 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:47 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:48 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:49 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:57:49 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:24 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:24 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:24 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:24 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:24 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:25 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:24 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:24 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:25 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:25 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:25 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:26 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:26 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:26 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:26 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:27 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:26 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:27 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:28 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:28 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:28 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:28 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:28 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:28 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:29 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:29 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:31 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:31 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:31 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:31 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:31 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:32 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:32 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:33 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:34 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:34 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:34 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:35 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:38 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:58:38 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:26 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:26 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:26 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:29 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:29 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:32 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:32 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:34 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:34 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:45 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:45 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:45 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:45 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:45 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:45 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:45 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:45 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:45 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:45 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:55 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:55 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:59 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:59 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:59 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:59 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:59 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:00 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:59 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 13:59:59 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:01 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:00 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:01 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:01 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:02 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:02 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:02 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:02 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:04 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:04 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:04 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:04 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:04 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:05 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:04 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:04 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:05 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:05 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:05 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:06 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:06 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:06 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:06 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:06 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:06 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:06 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:06 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:07 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:08 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:08 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:08 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:08 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:09 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:09 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:10 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:10 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:15 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:15 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:18 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:59:23: stale bloop error: empty character literal
+        var curChar = ''
+                      ^
+2020.08.20 14:00:18 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:00:18 INFO  time: compiled hello-world in 46ms
+2020.08.20 14:02:23 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:65:9: stale bloop error: illegal start of simple expression
+        }
+        ^
+2020.08.20 14:02:23 INFO  C:\Users\glgre\Documents\testCode\hello-world\src\main\scala\RPN.scala:65:9: stale bloop error: illegal start of simple expression
+        }
+        ^
+2020.08.20 14:02:50 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:02:50 INFO  time: compiled hello-world in 0.12s
+2020.08.20 14:03:00 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:03:00 INFO  time: compiled hello-world in 44ms
+2020.08.20 14:03:16 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:03:16 INFO  time: compiled hello-world in 99ms
+2020.08.20 14:03:41 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:03:41 WARN  there were four deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:03:41 INFO  time: compiled hello-world in 0.74s
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[<error>]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 1321, 1321, 1336)
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[<error>]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 1321, 1321, 1330)
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[<error>]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 1321, 1321, 1332)
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[<error>]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 1321, 1321, 1333)
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[Double]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 1321, 1321, 1334)
+2020.08.20 14:05:36 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:05:36 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:05:36 INFO  time: compiled hello-world in 0.69s
+Aug 20, 2020 2:07:56 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1494, count -1, length 1857
+2020.08.20 14:08:08 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:08:08 INFO  time: compiled hello-world in 45ms
+2020.08.20 14:08:15 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:08:15 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:08:15 INFO  time: compiled hello-world in 0.65s
+2020.08.20 14:09:00 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:09:00 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:09:00 INFO  time: compiled hello-world in 0.6s
+2020.08.20 14:10:50 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:10:50 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:10:50 INFO  time: compiled hello-world in 0.6s
+2020.08.20 14:12:29 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:12:29 WARN  there were 6 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:12:29 INFO  time: compiled hello-world in 0.64s
+2020.08.20 14:12:46 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:12:46 WARN  there were 6 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:12:46 INFO  time: compiled hello-world in 0.59s
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[Double]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 536, 536, 549)
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[<error>]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 1952, 1952, 1967)
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[<error>]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 1952, 1952, 1961)
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[<error>]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 1952, 1952, 1963)
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[Double]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 1952, 1952, 1965)
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[Double]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 1952, 1952, 1965)
+something's wrong: no file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala in java.util.Stack[Double]RangePosition(file:///C:/Users/glgre/Documents/testCode/hello-world/src/main/scala/RPN.scala, 1952, 1952, 1965)
+2020.08.20 14:20:31 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:20:31 INFO  time: compiled hello-world in 99ms
+2020.08.20 14:20:40 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:20:40 WARN  there were 7 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:20:40 INFO  time: compiled hello-world in 0.63s
+2020.08.20 14:21:29 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:21:29 WARN  there were 7 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:21:29 INFO  time: compiled hello-world in 0.61s
+2020.08.20 14:22:02 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:22:02 WARN  there were 7 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:22:02 INFO  time: compiled hello-world in 0.56s
+2020.08.20 14:22:47 INFO  compiling hello-world (1 scala source)
+2020.08.20 14:22:47 WARN  there were 7 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.08.20 14:22:47 INFO  time: compiled hello-world in 0.73s

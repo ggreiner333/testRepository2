@@ -3,37 +3,7 @@ import io.Source._
 import java.io.PrintWriter._
 
 object Main extends App {
-  println("Would you like the abbreviations to be in Upper, Lower, or Mixed Case?")
-  val userInput = readLine()
-
-  val source = io.Source.fromFile("statesAndAbrv.txt")
-  var abbreviations = source.getLines.map(line => chooseCase(userInput, (line.substring(line.indexOf("-")+1).toArray)))
-
-  val myWriter = new java.io.PrintWriter("Abbreviations.txt")
-  abbreviations.foreach(myWriter.println(_))
-  myWriter.close
-  source.close
-
-  def chooseCase(userInput : String, line : Array[Char]): Array[Char] = {
-    userInput match{
-      case("Lower") => (String.valueOf(line).toLowerCase).toCharArray
-      case("Upper") => (String.valueOf(line).toUpperCase).toCharArray
-      case("Mixed") => toMixedCase(String.valueOf(line)) .toCharArray
-      case(_)       => (String.valueOf(line).toUpperCase).toCharArray
-    }
-  }
-
-  def toMixedCase(abrv : String): String = {
-    val randomNums = ((Math.random()*2).asInstanceOf[Int], (Math.random()*2).asInstanceOf[Int])
-    val newCaps = randomNums match{
-      case(0, 0) => abrv.toLowerCase
-      case(0, 1) => abrv.substring(0, 1).toLowerCase + abrv.substring(abrv.length-1).toUpperCase
-      case(1, 0) => abrv.substring(0, 1).toUpperCase + abrv.substring(abrv.length-1).toLowerCase
-      case(1, 1) => abrv.toUpperCase
-      case(_, _) => abrv
-    }
-    newCaps
-  }
+  RPN.runner()
 }
 
 /*
